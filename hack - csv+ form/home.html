@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saukya</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap-3.3.7-dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap-social/bootstrap-social.css"
+    />
+    <link
+      rel="stylesheet"
+      href="fonts/font-awesome-4.6.3/css/font-awesome.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form
+        class="row form gx-5"
+        action="send.php"
+        method="post"
+        styles="margin-top:0px"
+      >
+        <div class="col-md-4 pb-4">
+          <input
+            placeholder="Name"
+            type="text"
+            name="name"
+            value=""
+            class="custominput"
+            required
+          />
+        </div>
+        <div class="col-md-4 pb-4">
+          <input
+            placeholder="Email"
+            type="email"
+            name="email"
+            value=""
+            class="custominput"
+            required
+          />
+        </div>
+        <div class="col-md-4 pb-4">
+          <input
+            placeholder="Phone Number"
+            type="tel"
+            name="telephone"
+            pattern="+\d*"
+            class="custominput"
+            required
+          />
+        </div>
+        <div class="col-md-4 pb-4">
+          <input
+            placeholder="Company"
+            type="text"
+            name="company"
+            value=""
+            class="custominput"
+            required
+          />
+        </div>
+        <div class="col-md-4 pb-4">
+          <input
+            placeholder="Role"
+            type="text"
+            name="role"
+            value=""
+            class="custominput"
+            required
+          />
+        </div>
+        <div class="col-md-4 pb-4">
+          <input
+            placeholder="Country"
+            type="text"
+            name="country"
+            value=""
+            class="custominput"
+            required
+          />
+        </div>
+        <div class="col-md-4"></div>
+        <div
+          class="col-md-4"
+          style="display: flex; justify-content: center; margin-bottom: 2vw"
+        >
+          <div
+            class="g-recaptcha"
+            data-sitekey="6LeRj_onAAAAAMDyk6j5GLCpU59jE0iqanfp8Pej"
+          ></div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4 text-center">
+          <button type="submit" name="send" class="mt-2 mb-3 btn btn-beta">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <script src="javascript/jquery-1.11.3.min.js"></script>
+  <script src="css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <script src="javascript/jscript.js"></script>
+</html>

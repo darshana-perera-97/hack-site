@@ -1,0 +1,101 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.header-banner {
+    background-image: url('./Assets/back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 25vh !important;
+    padding-bottom: 20vh !important;
+}
+
+.header-banner h1 {
+    font-size: 70px;
+    line-height: 70%;
+    text-shadow: 15px 2px 4px rgba(255, 255, 255);
+}
+
+.header-banner .sm-text {
+    font-size: 30px;
+    color: #414f5a;
+}
+
+.header-banner p {
+    color: #414f5a;
+}
+
+.analytics h4 {
+    color: #8dafd0;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.analytics h5 {
+    color: #2585ec;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.analytics h3 {
+    color: #2585ec;
+    font-size: 45px;
+    opacity: 0.5;
+    font-weight: 200;
+}
+
+.analytics {
+    border: 1px solid #2585ecb7;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #5a6e832d;
+}
+
+h2 {
+    color: #2585ec;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.event .card,
+#upcoming-hackathons .card {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #414f5a25;
+}
+
+.event .card .card-img-top,
+#upcoming-hackathons .card .card-img-top {
+    border-radius: 15px;
+    height: 200px;
+}
+
+.event .card .card-title,
+#upcoming-hackathons .card .card-title {
+    color: #2585ec;
+}
+
+.event .card .card-text,
+#upcoming-hackathons .card .card-text {
+    color: #414f5a;
+    opacity: 0.6;
+}
+
+.para {
+    opacity: 0.6;
+    color: #414f5a;
+}
+
+.btn-primary {
+    border-color: #2585ec;
+    color: #2585ec;
+    background-color: #ffffff;
+}
+
+.subscribe,
+.aboutUs {
+    background: #e2f2ff;
+}
+
+.AddNew {
+    background: #f9eeff;
+}
