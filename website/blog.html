@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs | Hackathon.lk</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .blog-section {
+        padding-top: 2rem;
+      }
+
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+      .card-text {
+        font-size: 1rem;
+      }
+
+      .footer {
+        background-color: #f8f9fa;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">Hackathon.lk</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html#upcoming-hackathons"
+                >Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cta" href="./form.html">Get Touched</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Banner -->
+    <header class="header-banner-inner-pages">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-primary">
+              The Journal: Design Resources, Interviews, and Industry News
+            </h1>
+            <form class="form-inline justify-content-start mt-5">
+              <input
+                class="form-control mr-2"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-primary" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog-section container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="/blogs/blog01.html">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x150"
+                class="card-img-top"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-primary">
+                  Conversations with Our Favorite London Studio, Makr & Co.
+                </h5>
+                <p class="card-text text-dark">
+                  We sat down with London's fast-growing brand and product
+                  design studio...
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">20 Jan 2024</small>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Repeat similar blocks for other blog posts -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center py-4">
+      <p>&copy; 2024 Untitled UI. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
