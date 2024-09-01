@@ -115,6 +115,15 @@ h2 {
     background-color: #ffffff;
 }
 
+.hackathon-content h3 {
+    color: #2585ec;
+}
+
+.hackathon-content p {
+    line-height: 180%;
+    opacity: 0.5;
+}
+
 .subscribe,
 .aboutUs {
     background: #e2f2ff;
